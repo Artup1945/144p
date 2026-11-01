@@ -1,0 +1,75 @@
+html{
+    scroll-behavior: smooth;
+}
+.nav{
+    width: 100%;
+}
+
+li{
+    list-style: none;
+}
+
+ol{
+    margin-top: 8%;
+    margin-left: 21%;
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 23px;
+}
+
+.icon {
+    position: absolute;
+    width: 100px;
+    height: auto;
+}
+.conteiner{
+    margin-left: 10%;
+    background-color: rgb(123, 123, 122);
+    width: 1200px;
+    height: 809px;
+}
+
+.navbar{
+    background-color: white;
+    width: 100px;
+    height: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.window {
+    display: flex;
+    gap: 15px;
+}
+
+.tools{
+    background-color: white;
+    /* border-style: solid;
+    border-color: rgb(150, 150, 150); */
+    border-radius: 2%;
+    width: 200px;
+    height: 500px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.gambar {
+    background-color: white;
+    /* border-style: solid;
+    border-color: rgba(150, 150, 150, 0.288); */
+    border-radius: 1%;
+    width: 800px;
+    height: 500px;
+    margin-left: 10%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+.post {
+    background-color: rgba(250, 249, 249, 0.884);
+    border-style: dashed;
+    border-color: rgba(150, 150, 150, 0.288);
+    border-radius: 1%;
+    width: 300px;
+    height: 100px;
+    margin-left: 10%;
+}
